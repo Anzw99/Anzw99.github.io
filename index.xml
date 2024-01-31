@@ -250,19 +250,14 @@ Robot cell aansluiten&lt;/p&gt;
       <link>/project/carbon-cure-computer/</link>
       <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/project/carbon-cure-computer/</guid>
-      <description>&lt;p&gt;around 2015-2018 I helped at 
-&lt;a href=&#34;https://www.meeusencomposites.nl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Meeusen Composites&lt;/a&gt; to build and repair carbon, mainly for racing sailboats. In the carbon workshop I helped with various tasks such as:&lt;/p&gt;
+      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Building moulds for carbon parts with the CNC router&lt;/li&gt;
-&lt;li&gt;Sanding/waxing moulds in preperation of the manufacturing process&lt;/li&gt;
-&lt;li&gt;Cut fibers to size according to laminate plan&lt;/li&gt;
-&lt;li&gt;Build carbon products with wet layup&lt;/li&gt;
-&lt;li&gt;Build carbon products with prepreg fibers (layup and vacuum)&lt;/li&gt;
-&lt;li&gt;Build carbon products with vacuum injection (dry layup, epoxy impregnated via bleeder layer and vacuum) (shown in image)&lt;/li&gt;
-&lt;li&gt;Prepare broken parts for repair (sanding, milling, etc)&lt;/li&gt;
-&lt;li&gt;Shaping Naca profiles with moulds, fill primer, and lots of sanding&lt;/li&gt;
+&lt;li&gt;Arduino&lt;/li&gt;
+&lt;li&gt;Control system&lt;/li&gt;
+&lt;li&gt;Online dashboard&lt;/li&gt;
+&lt;li&gt;temp, vac measured and controlled&lt;/li&gt;
+&lt;li&gt;nicely in a pelicase&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Also, I built a control system for an autoclave which could measure 3x product vacuum, 1x tank pressure, 3x product temperature and could control the tank preasure, tank temperature, and product vacuum. This control system had beside the physical interface at the autoclave also a webpage interface to supervise and log the process, and if nessesery adapt or stop the process.&lt;/p&gt;
 </description>
     </item>
     
