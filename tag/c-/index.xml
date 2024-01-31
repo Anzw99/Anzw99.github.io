@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; | Andreas Zwanenburg Portfolio</title>
+    <link>/tag/c-/</link>
+      <atom:link href="/tag/c-/index.xml" rel="self" type="application/rss+xml" />
+    <description>C&#43;&#43;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>C&#43;&#43;</title>
+      <link>/tag/c-/</link>
+    </image>
+    
+    <item>
+      <title>Downscaling autonomous drone navigation</title>
+      <link>/project/downscaling-autonomous-drone-navigation/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/project/downscaling-autonomous-drone-navigation/</guid>
+      <description>&lt;p&gt;For the second part of my Thesis project in my Masters, I have researched how autonomous navigation for drones in forest conditions downscales. In this downscaling, the CPU and memory load of the processor, the sensor quality, and flight peformance are considered.&lt;/p&gt;
+&lt;p&gt;In order to compare performance in the rainforest with for example processor load, the performance has to be quantified somehow. To make this performance measurable, I created four metrics with formulas. These four metrics are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the miminum findable gap size the drone can find to traverse through&lt;/li&gt;
+&lt;li&gt;the minimum obstacle size the drone can detect&lt;/li&gt;
+&lt;li&gt;the maximum obstruction width the local planner can plan around&lt;/li&gt;
+&lt;li&gt;the reaction time of the perception to map obstacles and detect collisions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To benchmark how the performance and processor load change with different configurations for the planning algorithm, I chose to run simulations where the board replays actual logged flight data. The perception and planning algorithm then processes this real forest flight data according to the specifically given setting. This setting then varies to compare different setups.&lt;/p&gt;
+&lt;p&gt;For the benchmarking, a dataset is created with the 500-gram autonmous drone built for the 
+&lt;a href=&#34;../xprize-rainforest-competition&#34;&gt;Xprize Rainforest Competition&lt;/a&gt;. The 500-gram drone flew over a trail in a dutch forest fully autonomous, and all data is recorded. From the recorded data, the Drone&amp;rsquo;s localisation data and the depth image are extracted. This extraced data is then injected in ROS where the perception and path planning are running with a specific configuration. In this simulation, loop durations for sup-processes, CPU load, and memory load are measured. To steamline the benchmarking, the simulation process is automated such that a set of pre-defined configurations is simulated back-to-back to run over 100 simulations of a couple hours. In this automated benchmarking, the system performance is logged in ROSbag files and transfered to pickle files.&lt;/p&gt;
+&lt;p&gt;These pickle files contain data that is directly imported in Python. In a Python script, the data is processed and visualised. In the visualisations, the loop durations or load is plotted in time graphs and statitically shown in boxplots. These visualisations not only show the average value, but also the variation in the measurement. For every simulation, the four perfromance metrics are calculated by the measured data and configuration settings. The figure below shows an example of the measured CPU load when varying the resolution of the obstacle map (voxel-grid). In this example, a 0.05m voxelgrid reffers to a mapping where obstacles are mapped in cubes of 5x5x5cm. The smaller the cubes, the more accurate obstacles are represented, and the smaller gaps can be found by the planner to plan a path through.
+&lt;img src=&#34;cpu_load_voxel_size.png&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The benchmarking over 100 configurations of the planner on exactly the same scenario, the results show that configurations related to the perception (depth-image resultion/rate, voxel-grid resolution) have the biggest impact on reducing the CPU load and performance. In the research, tradeoffs are visualised how different configurations with different CPU loads and performance relate to eachother. These tradeoffs can then be used to choose what performance are required or most important, and which are less important for a certain task. With this knowlegde, a system can be configured to use a low CPU load where the performances are known upfront.&lt;/p&gt;
+&lt;p&gt;With these results, a Tello drone with full onboad autonomy is created, shown at the top of this page. This 
+&lt;a href=&#34;https://store.dji.com/nl/product/tello?vid=38421&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tello&lt;/a&gt; drone can navigate through 1.0m gaps, has a 300ms reaction time, detects obstacles of 2cm and bigger, and plans around obstacles upto 3.6m width. Onboard the Tello drone, a new lightweight type of camera is used wich is quite novel in this field, the 
+&lt;a href=&#34;https://www.arducam.com/time-of-flight-camera-raspberry-pi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arducam TOF&lt;/a&gt; depth camera. To process all autonomy, a 
+&lt;a href=&#34;https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi Zero 2w&lt;/a&gt; is used. In total the system weighs 110 grams including battery, and can fly for 4 minutes. In publications, I have not found drones that compute onboard autonomous path planning on this small size and flight time.&lt;/p&gt;
+&lt;p&gt;The two images below show Rviz with the depth image from the TOF camera, the mapping of obstacles in the blocks, and the path planning in 3D around the obstacles&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;tello_path_planning.png&#34; alt=&#34;Caption&#34;&gt;
+&lt;img src=&#34;tello_path_planning_2.png&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Xprize Rainforest Competition</title>
+      <link>/project/xprize-rainforest-competition/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>/project/xprize-rainforest-competition/</guid>
+      <description>&lt;p&gt;For the beginning of my Thesis project, I was tasked to create an autonomus drone that could navigate in the rainforest. This drone was for the 
+&lt;a href=&#34;https://www.xprize.org/prizes/rainforest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xprize Rainforest competition&lt;/a&gt; in which TUDelft collaborated with ETH Zurich and Aarhus University under the name 
+&lt;a href=&#34;https://biodivx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETH BiodiviX&lt;/a&gt;. In the competition, teams had to measure biodiversity of a specific rainforest area and create a report with the findings. Measuring biodiversity had to be done remotely, so only robots could enter the competition area. Whitin 24h, these robots had to collect the data. The BiodiviX team had 1 rover and 5 drones in total for the measurements. Thereafter, in the following 24h, the report had to be generated.&lt;/p&gt;
+&lt;p&gt;The semi-finals of this competition took place in June 2023 in the rainforest of Singapore. Our team was successfull with the data collection and report and advanced to the competition finals, which will be in Amazon rainforest in the summer of 2024. In the video below, you find an intresting aftermovie of what our team preformed in Singapore.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0gJPW-Bgh6A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To create a drone that could navigate autonomously in the rainforest, I had to study what the best method would be, I had to design a drone system, build a drone system, program the drone, and testfly the drone. For the design of the drone, I took Parrot Bebop 2 drone for which I designed a module on top to create the autonomy. This module on top contained an Odroid XU4 processor board, a Realsense Depth camera, and additional flightsystems for the mission such as communication and GPS.&lt;/p&gt;
+&lt;p&gt;For the autonomous navigation I used the 
+&lt;a href=&#34;https://github.com/ZJU-FAST-Lab/ego-planner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EGO-planner&lt;/a&gt; as basis. This algorithm has a perception process that maps the detected obstacles in the environment and a jerk-optimised path-planner to generate smooth paths towards the goal, shown in the image below. This path planner was in 2023 the state-of-the-art algorithm to run real-time on a small processor board which also robustly find paths in dense and complex environments.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;EGO-planner.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The planner was adapted to work in the ROS architecture of my system and adapted to communicate with the Bebop 2 drone via the Parrot SDK. Other sensor and software modules are added to the system to run the outdoor mission, such as a 4G module, RC receiver and a GPS module. The 4G module enabled remote supervision of the drone with telemetry, video streaming, adapting the mission, and control from the groundstation (the laptop). The GPS module enabled GPS waypoint missions with the EGO-planner.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mechanical_system_components.jpg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

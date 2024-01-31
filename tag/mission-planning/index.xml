@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mission planning | Andreas Zwanenburg Portfolio</title>
+    <link>/tag/mission-planning/</link>
+      <atom:link href="/tag/mission-planning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mission planning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Mission planning</title>
+      <link>/tag/mission-planning/</link>
+    </image>
+    
+    <item>
+      <title>Xprize Rainforest Competition</title>
+      <link>/project/xprize-rainforest-competition/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>/project/xprize-rainforest-competition/</guid>
+      <description>&lt;p&gt;For the beginning of my Thesis project, I was tasked to create an autonomus drone that could navigate in the rainforest. This drone was for the 
+&lt;a href=&#34;https://www.xprize.org/prizes/rainforest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xprize Rainforest competition&lt;/a&gt; in which TUDelft collaborated with ETH Zurich and Aarhus University under the name 
+&lt;a href=&#34;https://biodivx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETH BiodiviX&lt;/a&gt;. In the competition, teams had to measure biodiversity of a specific rainforest area and create a report with the findings. Measuring biodiversity had to be done remotely, so only robots could enter the competition area. Whitin 24h, these robots had to collect the data. The BiodiviX team had 1 rover and 5 drones in total for the measurements. Thereafter, in the following 24h, the report had to be generated.&lt;/p&gt;
+&lt;p&gt;The semi-finals of this competition took place in June 2023 in the rainforest of Singapore. Our team was successfull with the data collection and report and advanced to the competition finals, which will be in Amazon rainforest in the summer of 2024. In the video below, you find an intresting aftermovie of what our team preformed in Singapore.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0gJPW-Bgh6A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To create a drone that could navigate autonomously in the rainforest, I had to study what the best method would be, I had to design a drone system, build a drone system, program the drone, and testfly the drone. For the design of the drone, I took Parrot Bebop 2 drone for which I designed a module on top to create the autonomy. This module on top contained an Odroid XU4 processor board, a Realsense Depth camera, and additional flightsystems for the mission such as communication and GPS.&lt;/p&gt;
+&lt;p&gt;For the autonomous navigation I used the 
+&lt;a href=&#34;https://github.com/ZJU-FAST-Lab/ego-planner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EGO-planner&lt;/a&gt; as basis. This algorithm has a perception process that maps the detected obstacles in the environment and a jerk-optimised path-planner to generate smooth paths towards the goal, shown in the image below. This path planner was in 2023 the state-of-the-art algorithm to run real-time on a small processor board which also robustly find paths in dense and complex environments.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;EGO-planner.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The planner was adapted to work in the ROS architecture of my system and adapted to communicate with the Bebop 2 drone via the Parrot SDK. Other sensor and software modules are added to the system to run the outdoor mission, such as a 4G module, RC receiver and a GPS module. The 4G module enabled remote supervision of the drone with telemetry, video streaming, adapting the mission, and control from the groundstation (the laptop). The GPS module enabled GPS waypoint missions with the EGO-planner.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mechanical_system_components.jpg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

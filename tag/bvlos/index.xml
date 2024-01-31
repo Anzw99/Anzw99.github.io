@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BVLOS | Andreas Zwanenburg Portfolio</title>
+    <link>/tag/bvlos/</link>
+      <atom:link href="/tag/bvlos/index.xml" rel="self" type="application/rss+xml" />
+    <description>BVLOS</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>BVLOS</title>
+      <link>/tag/bvlos/</link>
+    </image>
+    
+    <item>
+      <title>Drone piloting</title>
+      <link>/project/drone-piloting/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/project/drone-piloting/</guid>
+      <description>&lt;p&gt;Over the last couple years I have been piloting drones regularly. Since 2022 I own a DJI Mini 2 drone that take for a flight regulary to do hobby photography/videography. I fly the Mini 2 drone most of the time outdoors over land, and a few times from a boat at sea. Sometimes, I help out friends of family with some drone inspection, for example at the roof of the house, or make an orthomosaic mapping of an area.&lt;/p&gt;
+&lt;p&gt;Further, during my Masters, I have been piloting prototype drones daily for testflights and calibrations. These prototype drones were designed to fly autonous most of the time, so I was then safety pilot to manually take over in case something goes wrong. Developing these drones and being aware when an error might occur as safety pilot helped me to groundfully understand the capabilities and limits of drone components and sensors.&lt;/p&gt;
+&lt;p&gt;In addition, I have been piloting some other drones in special occasions. For example, during the Xprize Rainforest Competition in 2023, I flew a DJI Mavic 3 drone BVLOS in the jungle in between the different layers of the canopy with close obstacle encounter for close up images of the vegetation. My logged flights upto January 2024 are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DJI Mini 2: 188 flights, 18h&lt;/li&gt;
+&lt;li&gt;Parrot bebop 2: 90+ flights, 40+h (autonomous drone prototype)&lt;/li&gt;
+&lt;li&gt;DJI Mavic 3 pro: 8 flights, 4h (BVLOS)&lt;/li&gt;
+&lt;li&gt;DJI Tello: 30+ flights, 5+h (autonomous drone prototype)&lt;/li&gt;
+&lt;li&gt;Eachine Trashcan: 40+ flights, 8+h (FPV practice)&lt;/li&gt;
+&lt;li&gt;Flyablitiy Helios 2: 1 flight, 10min (tryout/pilot-training)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

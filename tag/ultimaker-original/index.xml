@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ultimaker original | Andreas Zwanenburg Portfolio</title>
+    <link>/tag/ultimaker-original/</link>
+      <atom:link href="/tag/ultimaker-original/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ultimaker original</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Ultimaker original</title>
+      <link>/tag/ultimaker-original/</link>
+    </image>
+    
+    <item>
+      <title>3D printing</title>
+      <link>/project/3d-printing/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/project/3d-printing/</guid>
+      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
+&lt;p&gt;Ultimaker from 2011&lt;/p&gt;
+&lt;p&gt;Creality Ender 3 S1&lt;/p&gt;
+&lt;p&gt;Knowledge about material properties
+Knowledge about lightweight/strong design for 3D manufacturing&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

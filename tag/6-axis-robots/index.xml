@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 axis robots | Andreas Zwanenburg Portfolio</title>
+    <link>/tag/6-axis-robots/</link>
+      <atom:link href="/tag/6-axis-robots/index.xml" rel="self" type="application/rss+xml" />
+    <description>6 axis robots</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>6 axis robots</title>
+      <link>/tag/6-axis-robots/</link>
+    </image>
+    
+    <item>
+      <title>Industrial robot cell</title>
+      <link>/project/industrial-robot-cell/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/project/industrial-robot-cell/</guid>
+      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
+&lt;p&gt;Van Wees Waalwijk (link)
+6 assige robot programmeren
+Scada robot optimaliseren
+Robot cell aansluiten&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;aardbeien_carrousel.png&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
