@@ -100,12 +100,20 @@
       <link>/project/industrial-robot-cell/</link>
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       <guid>/project/industrial-robot-cell/</guid>
-      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
-&lt;p&gt;Van Wees Waalwijk (link)
-6 assige robot programmeren
-Scada robot optimaliseren
-Robot cell aansluiten&lt;/p&gt;
+      <description>&lt;p&gt;During my HBO Mechatronics graduation internship, I contributed to 
+&lt;a href=&#34;https://www.vanweeswaalwijk.nl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Machinefabriek Van Wees Waalwijk&lt;/a&gt;, a company specializing in industrial automations. My primary task was to design a stacking method/machine for trays of strawberries, integrating it into a process utilizing a 6-axis robotic arm in an industrial bakery.&lt;/p&gt;
+&lt;p&gt;Following the internship, I continued my collaboration with the company during the summer break and for four additional months in the subsequent year. In this extended period, I served as an engineer, actively involved in machine designs and assemblies. Additionally, I visited the company&amp;rsquo;s clients, where I analysd existing machine processes. My role included conducting objective assessments of machine performance, identifying bottlenecks, and proposing optimization strategies for both the machine design and the customer&amp;rsquo;s processes.&lt;/p&gt;
+&lt;h1 id=&#34;internship&#34;&gt;Internship&lt;/h1&gt;
+&lt;p&gt;During the internship project, I was tasked with designing a carousel system for trays of strawberries to seamlessly integrate into an existing robot cell featuring a UR10 6-axis robot within an industrial bakery. The goal was to facilitate the efficient picking of strawberries by the robot arm from a stack of trays inserted by an employee.
+Given the industrial food environment, the design was subject to strict cleaning requirements. Every detail, including edges, corners, holes, and other openings, was carefully designed to optimize the cleaning process.&lt;/p&gt;
+&lt;p&gt;Additionally, the PLC in the system needed to seamlessly interface with the PLC of the robot arm. Consequently, a PLC program with this communication capability was designed and programmed for this task.&lt;/p&gt;
+&lt;p&gt;A rendering of the carrousel&amp;rsquo;s Solidworks design is shown in the image below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;aardbeien_carrousel.png&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;machine-design-assembly-and-optimalisation&#34;&gt;Machine design, assembly and optimalisation&lt;/h1&gt;
+&lt;p&gt;After the internship, Van Wees offered me a summer side job, and the following year, I continued my involvement with the company for an additional four months after completing my study program in the spring. During this period, I engaged in various projects, doing various tasks including robot programming, optimization, field analysis, mechanical assembly, and electrical assembly.&lt;/p&gt;
+&lt;p&gt;For programming robots within multi-station robot cells, featuring UR10 collaborative and Epson Scara LS6 robots, I focused on enhancing efficiency. This involved analyzing task execution orders, optimizing robot motions, and implementing additional logic to make the systems more adaptive to dynamic situations.&lt;/p&gt;
+&lt;p&gt;For deployed production machines operating in the field for several years, I did an objective alalysis and adviced both Van Wees and the customer. My approach involved studying the product and the customer&amp;rsquo;s process, logging machine production data, and conducting a thorough analysis of the results how downtime can be decreased and production optimised.&lt;/p&gt;
+&lt;p&gt;Contributing to the production of Van Wees machines, I found great satisfaction in both mechanical and electrical assembly tasks. In mechanical assembly, I followed design schematics to assemble parts, while in electrical assembly, I installed numerous sensors on robot cells. This included adjusting cable ducts to the correct size, wiring sensors to can-bus hubs, and connecting can-bus hubs to the PLC. I particularly enjoyed installing and wiring the electronic components at the workshop.&lt;/p&gt;
 </description>
     </item>
     
