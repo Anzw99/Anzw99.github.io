@@ -17,14 +17,10 @@
       <link>/project/carbon-cure-computer/</link>
       <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/project/carbon-cure-computer/</guid>
-      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Arduino&lt;/li&gt;
-&lt;li&gt;Control system&lt;/li&gt;
-&lt;li&gt;Online dashboard&lt;/li&gt;
-&lt;li&gt;temp, vac measured and controlled&lt;/li&gt;
-&lt;li&gt;nicely in a pelicase&lt;/li&gt;
-&lt;/ul&gt;
+      <description>&lt;p&gt;I constructed a control system for a companion, designed to monitor and control the curing process involved in creating carbon products or conducting repairs. The compact control system is compactly housed in a Peli Case, as shown in the image above.&lt;/p&gt;
+&lt;p&gt;While featuring a minimal physical interface, the system offers extensive monitoring, configuration, and control capabilities wirelessly through an application accessible on a phone, tablet, or PC. The primary objective of this control system is to measure and control the vacuum and temperature. To achieve this, the system incorporates a vacuum and thermocouple sensor, and has two relays to control a regular vacuum pump and a heating element within a 2x2kW limit.&lt;/p&gt;
+&lt;p&gt;To ensure safety, the system incorporates protective features against overcurrent and overheating. Additionally, it provides warning/error signals in the event of unintended behavior, such as a leaking vacuum or a malfunctioning heating element.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cure_computer.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
