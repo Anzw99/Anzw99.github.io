@@ -46,11 +46,10 @@
       <link>/project/3d-printing/</link>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
       <guid>/project/3d-printing/</guid>
-      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
-&lt;p&gt;Ultimaker from 2011&lt;/p&gt;
-&lt;p&gt;Creality Ender 3 S1&lt;/p&gt;
-&lt;p&gt;Knowledge about material properties
-Knowledge about lightweight/strong design for 3D manufacturing&lt;/p&gt;
+      <description>&lt;p&gt;Since the start of my HBO Mechatronics studies, my interest in 3D printing has grown, leading to significant learning experiences. Over the past 7 years, I&amp;rsquo;ve delved into various aspects, such as optimizing material-print settings and mastering 3D design in Solidworks for lightweight, strong, and durable prints.&lt;/p&gt;
+&lt;p&gt;Throughout my HBO study projects, I designed numerous parts and small-scale machines in Solidworks, translating these designs into 3D-printed realities. During my first internship, I revived an old and mallfunctioning Ultimaker Original, one of the pioneers in consumer 3D printers, from 2011. Over time, I enhanced its capabilities by modifying electronics, creating a new hotend and adding a heated bed. The printer is shown in the image at the top of this page.&lt;/p&gt;
+&lt;p&gt;After five years, I decided to upgrade to the Creality Ender 3 S1 for a quieter and more precise printing experience. This printer automates many calibrations and fine-tuning processes, minimizing the need for manual adjustments and ensuring smoother prints, especially with its acceleration sensor for automatic tuning and reduced vibrations at high speeds.&lt;/p&gt;
+&lt;p&gt;Throughout my 3D printing journey, printing on avarage roughly two parts per week, I have actively engaged in designing, printing, and refining. This hands-on approach has provided valuable insights into material properties and additive manufacturing processes. I now have a comprehensive understanding of selecting materials based on factors like durability, sun exposure, chemical requirements, and brittleness. Additionally, for the part design, the layer-by-layer printing process has taught me to consider factors such as layer orientation for strength, the necessity of support structures, and the precision required for achieving strength, lightweightness, and speed.&lt;/p&gt;
 </description>
     </item>
     
