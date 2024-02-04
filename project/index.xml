@@ -61,6 +61,15 @@
     </item>
     
     <item>
+      <title>Study Robotics</title>
+      <link>/project/study-robotics/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/project/study-robotics/</guid>
+      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>3D printing</title>
       <link>/project/3d-printing/</link>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
@@ -147,6 +156,15 @@ Given the industrial food environment, the design was subject to strict cleaning
 &lt;li&gt;Shaping Naca profiles with moulds, fill primer, and lots of sanding&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Also, I built a control system for an autoclave which could measure 3x product vacuum, 1x tank pressure, 3x product temperature and could control the tank preasure, tank temperature, and product vacuum. This control system had beside the physical interface at the autoclave also a webpage interface to supervise and log the process, and if nessesery adapt or stop the process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Carbon workshop</title>
+      <link>/project/study-mechatronics/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/project/study-mechatronics/</guid>
+      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
 </description>
     </item>
     
