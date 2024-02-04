@@ -32,6 +32,33 @@
     </item>
     
     <item>
+      <title>Sailing</title>
+      <link>/project/sailing/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/project/sailing/</guid>
+      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
+&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;routing.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;dufour-40&#34;&gt;Dufour 40&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;dolphin_drone.jpeg&#34; alt=&#34;Caption&#34;&gt;
+&lt;img src=&#34;dolphin_VUR_downwind.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;swann-45&#34;&gt;Swann 45&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;kforce_3boats.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;splash-and-optimist&#34;&gt;Splash and Optimist&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;splash_andreas.jpeg&#34; alt=&#34;Caption&#34;&gt;
+&lt;img src=&#34;splash_more_boats.jpeg&#34; alt=&#34;Caption&#34;&gt;
+&lt;img src=&#34;splash_breskens.jpg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;coaching&#34;&gt;Coaching&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;coaching.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>3D printing</title>
       <link>/project/3d-printing/</link>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
@@ -40,6 +67,27 @@
 &lt;p&gt;Throughout my HBO study projects, I designed numerous parts and small-scale machines in Solidworks, translating these designs into 3D-printed realities. During my first internship, I revived an old and mallfunctioning Ultimaker Original, one of the pioneers in consumer 3D printers, from 2011. Over time, I enhanced its capabilities by modifying electronics, creating a new hotend and adding a heated bed. The printer is shown in the image at the top of this page.&lt;/p&gt;
 &lt;p&gt;After five years, I decided to upgrade to the Creality Ender 3 S1 for a quieter and more precise printing experience. This printer automates many calibrations and fine-tuning processes, minimizing the need for manual adjustments and ensuring smoother prints, especially with its acceleration sensor for automatic tuning and reduced vibrations at high speeds.&lt;/p&gt;
 &lt;p&gt;Throughout my 3D printing journey, printing on avarage roughly two parts per week, I have actively engaged in designing, printing, and refining. This hands-on approach has provided valuable insights into material properties and additive manufacturing processes. I now have a comprehensive understanding of selecting materials based on factors like durability, sun exposure, chemical requirements, and brittleness. Additionally, for the part design, the layer-by-layer printing process has taught me to consider factors such as layer orientation for strength, the necessity of support structures, and the precision required for achieving strength, lightweightness, and speed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Carbon workshop</title>
+      <link>/project/carbon-workshop/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/project/carbon-workshop/</guid>
+      <description>&lt;p&gt;around 2015-2018 I helped at 
+&lt;a href=&#34;https://www.meeusencomposites.nl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Meeusen Composites&lt;/a&gt; to build and repair carbon, mainly for racing sailboats. In the carbon workshop I helped with various tasks such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Building moulds for carbon parts with the CNC router&lt;/li&gt;
+&lt;li&gt;Sanding/waxing moulds in preperation of the manufacturing process&lt;/li&gt;
+&lt;li&gt;Cut fibers to size according to laminate plan&lt;/li&gt;
+&lt;li&gt;Build carbon products with wet layup&lt;/li&gt;
+&lt;li&gt;Build carbon products with prepreg fibers (layup and vacuum)&lt;/li&gt;
+&lt;li&gt;Build carbon products with vacuum injection (dry layup, epoxy impregnated via bleeder layer and vacuum) (shown in image)&lt;/li&gt;
+&lt;li&gt;Prepare broken parts for repair (sanding, milling, etc)&lt;/li&gt;
+&lt;li&gt;Shaping Naca profiles with moulds, fill primer, and lots of sanding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, I built a control system for an autoclave which could measure 3x product vacuum, 1x tank pressure, 3x product temperature and could control the tank preasure, tank temperature, and product vacuum. This control system had beside the physical interface at the autoclave also a webpage interface to supervise and log the process, and if nessesery adapt or stop the process.&lt;/p&gt;
 </description>
     </item>
     
