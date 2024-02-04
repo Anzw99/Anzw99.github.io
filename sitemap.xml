@@ -152,6 +152,11 @@
   </url>
   
   <url>
+    <loc>/tag/boats/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/c-/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url>
@@ -177,7 +182,17 @@
   </url>
   
   <url>
+    <loc>/tag/instruments/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/path-planning/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/preparation/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -197,12 +212,27 @@
   </url>
   
   <url>
+    <loc>/project/sailing/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sailing/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/study-robotics/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/system-integration/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/tactics/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -287,22 +317,17 @@
   </url>
   
   <url>
+    <loc>/project/study-mechatronics/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/carbon-workshop/</loc>
     <lastmod>2018-07-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/study-mechatronics/</loc>
-    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/rudder/</loc>
-    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/sailing/</loc>
     <lastmod>2018-07-04T00:00:00+00:00</lastmod>
   </url>
   

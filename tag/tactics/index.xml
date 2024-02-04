@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tactics | Andreas Zwanenburg Portfolio</title>
+    <link>/tag/tactics/</link>
+      <atom:link href="/tag/tactics/index.xml" rel="self" type="application/rss+xml" />
+    <description>tactics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>tactics</title>
+      <link>/tag/tactics/</link>
+    </image>
+    
+    <item>
+      <title>Sailing</title>
+      <link>/project/sailing/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/project/sailing/</guid>
+      <description>&lt;p&gt;WRITE TEXT HERE&lt;/p&gt;
+&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;routing.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;dufour-40&#34;&gt;Dufour 40&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;dolphin_drone.jpeg&#34; alt=&#34;Caption&#34;&gt;
+&lt;img src=&#34;dolphin_VUR_downwind.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;swann-45&#34;&gt;Swann 45&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;kforce_3boats.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;splash-and-optimist&#34;&gt;Splash and Optimist&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;splash_andreas.jpeg&#34; alt=&#34;Caption&#34;&gt;
+&lt;img src=&#34;splash_more_boats.jpeg&#34; alt=&#34;Caption&#34;&gt;
+&lt;img src=&#34;splash_breskens.jpg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;coaching&#34;&gt;Coaching&lt;/h2&gt;
+&lt;p&gt;WRITE TEXT HERE
+&lt;img src=&#34;coaching.jpeg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
