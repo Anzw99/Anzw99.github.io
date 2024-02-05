@@ -17,7 +17,7 @@
       <link>/project/downscaling-autonomous-drone-navigation/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/project/downscaling-autonomous-drone-navigation/</guid>
-      <description>&lt;p&gt;For the second part of my Thesis project in my Masters, I have researched how autonomous navigation for drones in forest conditions downscales. In this downscaling, the CPU and memory load of the processor, the sensor quality, and flight peformance are considered.&lt;/p&gt;
+      <description>&lt;p&gt;For the second part of my Thesis project in my Masters, I have researched how autonomous navigation for drones in forest conditions downscales. In this downscaling, the CPU and memory load of the processor, the sensor quality, and flight peformance are considered. With these results, I created a 100-gram drone with full onboard navigation capabilities to fly autonomous in forest conditions.&lt;/p&gt;
 &lt;p&gt;In order to compare performance in the rainforest with for example processor load, the performance has to be quantified somehow. To make this performance measurable, I created four metrics with formulas. These four metrics are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;the miminum findable gap size the drone can find to traverse through&lt;/li&gt;

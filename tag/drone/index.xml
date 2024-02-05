@@ -36,7 +36,7 @@
       <link>/project/downscaling-autonomous-drone-navigation/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/project/downscaling-autonomous-drone-navigation/</guid>
-      <description>&lt;p&gt;For the second part of my Thesis project in my Masters, I have researched how autonomous navigation for drones in forest conditions downscales. In this downscaling, the CPU and memory load of the processor, the sensor quality, and flight peformance are considered.&lt;/p&gt;
+      <description>&lt;p&gt;For the second part of my Thesis project in my Masters, I have researched how autonomous navigation for drones in forest conditions downscales. In this downscaling, the CPU and memory load of the processor, the sensor quality, and flight peformance are considered. With these results, I created a 100-gram drone with full onboard navigation capabilities to fly autonomous in forest conditions.&lt;/p&gt;
 &lt;p&gt;In order to compare performance in the rainforest with for example processor load, the performance has to be quantified somehow. To make this performance measurable, I created four metrics with formulas. These four metrics are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;the miminum findable gap size the drone can find to traverse through&lt;/li&gt;
@@ -65,10 +65,11 @@
       <link>/project/xprize-rainforest-competition/</link>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
       <guid>/project/xprize-rainforest-competition/</guid>
-      <description>&lt;p&gt;For the beginning of my Thesis project, I was tasked to create an autonomus drone that could navigate in the rainforest. This drone was for the 
+      <description>&lt;p&gt;For the beginning of my Thesis project, I created an autonomus 500-gram drone that could navigate in the rainforest. By only utilising onboard sensors and processor, the drone performed obstacle mapping and path-planning in complex and dense forest scenarios. This drone was for the 
 &lt;a href=&#34;https://www.xprize.org/prizes/rainforest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xprize Rainforest competition&lt;/a&gt; in which TUDelft collaborated with ETH Zurich and Aarhus University under the name 
-&lt;a href=&#34;https://biodivx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETH BiodiviX&lt;/a&gt;. In the competition, teams had to measure biodiversity of a specific rainforest area and create a report with the findings. Measuring biodiversity had to be done remotely, so only robots could enter the competition area. Whitin 24h, these robots had to collect the data. The BiodiviX team had 1 rover and 5 drones in total for the measurements. Thereafter, in the following 24h, the report had to be generated.&lt;/p&gt;
-&lt;p&gt;The semi-finals of this competition took place in June 2023 in the rainforest of Singapore. Our team was successfull with the data collection and report and advanced to the competition finals, which will be in Amazon rainforest in the summer of 2024. In the video below, you find an intresting aftermovie of what our team preformed in Singapore.&lt;/p&gt;
+&lt;a href=&#34;https://biodivx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETH BiodiviX&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the competition, teams had to measure biodiversity of a specific rainforest area and create a report with the findings. Measuring biodiversity had to be done remotely, so only robots could enter the competition area. Whitin 24h, these robots had to collect the data. The BiodiviX team had 1 rover and 5 drones in total for the measurements. Thereafter, in the following 24h, the report had to be generated.
+The semi-finals of this competition took place in June 2023 in the rainforest of Singapore. Our team was successfull with the data collection and report and advanced to the competition finals, which will be in Amazon rainforest in the summer of 2024. In the video below, you find an intresting aftermovie of what our team preformed in Singapore.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/0gJPW-Bgh6A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
