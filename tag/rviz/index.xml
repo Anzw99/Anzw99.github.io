@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RVIZ | Andreas Zwanenburg Portfolio</title>
+    <link>/tag/rviz/</link>
+      <atom:link href="/tag/rviz/index.xml" rel="self" type="application/rss+xml" />
+    <description>RVIZ</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>RVIZ</title>
+      <link>/tag/rviz/</link>
+    </image>
+    
+    <item>
+      <title>ROS</title>
+      <link>/project/ros/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/project/ros/</guid>
+      <description>&lt;p&gt;WRITE TEXT HERE
+&amp;hellip;..
+&amp;hellip;..&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ROS for autonomous drone navigation in rainforest&lt;/li&gt;
+&lt;li&gt;ROS for mechatronics study rover&lt;/li&gt;
+&lt;li&gt;ROS in simulation for sensor fusion&lt;/li&gt;
+&lt;li&gt;ROSBAG for advanced replay with simulated overlay (comparing benchmarking results)&lt;/li&gt;
+&lt;li&gt;RVIZ for practical visualisation&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

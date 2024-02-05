@@ -42,6 +42,24 @@
     </item>
     
     <item>
+      <title>ROS</title>
+      <link>/project/ros/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/project/ros/</guid>
+      <description>&lt;p&gt;WRITE TEXT HERE
+&amp;hellip;..
+&amp;hellip;..&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ROS for autonomous drone navigation in rainforest&lt;/li&gt;
+&lt;li&gt;ROS for mechatronics study rover&lt;/li&gt;
+&lt;li&gt;ROS in simulation for sensor fusion&lt;/li&gt;
+&lt;li&gt;ROSBAG for advanced replay with simulated overlay (comparing benchmarking results)&lt;/li&gt;
+&lt;li&gt;RVIZ for practical visualisation&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Autonomous drone navigation rainforest</title>
       <link>/project/xprize-rainforest-competition/</link>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
